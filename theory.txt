@@ -1,0 +1,35 @@
+28. Form in HTML 50  Part 01
+<link href="css/style.css" rel="stylesheet"/>
+
+Create Form Use Form Tag <form> </form>
+atributes=>>> action=""  method=""
+
+============================================
+For Box Use Input Tag and input inline element
+attributes=>>> type="text" name="firstname" placeholder="firstname"
+============
+<form action="" method="">
+        <input type="text" name="firstname" placeholder="firstname">
+        <input type="submit">
+    </form>
+===============================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>28. Form in HTML 50  Part 01</title>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <form action="" method="">
+        First Name:
+        <input type="text" name="firstname" placeholder="firstname">
+        Last Name:
+        <input type="text" name="lastname" placeholder="lastname">
+        
+        <input type="submit">
+    </form>
+</body>
+</html>
+===============================================
